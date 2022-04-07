@@ -1,0 +1,12 @@
+h1 {
+    color: white;
+}
+body {
+    background-image: url(tokyo.jpg); background-size: cover;
+}
+ul { 
+    line-height: 300%; color: white; size: 500px
+}
+a { 
+    color:white; font-size: 50px;
+}
