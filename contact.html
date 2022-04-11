@@ -6,9 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<h1 style="color:white">Contact Details</h1>
-<body Style="background-image: url(tokyo.jpg); background-size: cover;">
-    <ul style="line-height: 300%; color: black; size: 500px;">
+<h2>Please fill in this form to confirm booking</h2>
+<form action="https://formspree.io/f/mknyqoag"
+method="POST">
+    <label for="Fname">Fisrt Name</label><br>
+    <input type="text" id="Fname" name="Fname"><br>
+    <label for="Lname">Last Name</label><br>
+    <input type="text" id="Lname" name="Lname"><br>
+    <label for="Cnumber">Contact Number</label><br>
+    <input type="text" id="Cnumber" name="Cnumber"><br>
+    <label for="Email">Email Address</label><br>
+    <input type="email" id="Email" name="Email"><br>
+    <label for="date">Date:</label><br>
+    <label for="datemin">Enter a date after 2022-04-12:</label><br>
+    <input type="date" id="datemin" name="datemin" min="12-04-2022"><br>
+    <label for="appt">Select a time:</label><br>
+    <input type="time" id="appt" name="appt"><br>
+    <input type="submit" value="Submit">
+</form>
+<h1>Contact Details</h1>
+<body >
+    <ul>
         <li> Call me on: 068 196 6648</li>
         <li>Email me: ashtonabrahams563@gmail.com</li>
     </ul>
