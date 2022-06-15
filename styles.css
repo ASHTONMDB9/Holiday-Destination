@@ -1,18 +1,64 @@
 h1 {
     color: white;
+    margin-left: 30px;
+    margin-top: 80px;
+    text-shadow: 3px 3px 3px black;
+}
+#Details {
+    color: white;
+    margin-left: 30px;
+    margin-top: auto;
+    text-shadow: 3px 3px 3px black; 
 }
 body {
-    background-image: url(tokyo.jpg); background-size: cover;
+    background-image: url(tokyo.jpg); 
+    background-size: cover;
 }
 ul { 
-    line-height: 300%; color: white; font-size:x-large; font-family: sans-serif;
+    line-height: 300%; 
+    color: white; 
+    font-size:x-large; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 3px 3px 3px black;
 }
 a { 
-    color:white; font-size: 50px;
+    color:white; 
+    font-size: 25px;
+
 }
 h2 {
+    margin-top: 100px;
+    margin-left: 50px;
     color: white;
+    text-shadow: 3px 3px 3px black;
+}
+#tree {
+    margin-left: 80px;
+    height: 400px;
+    width: 680px;
 }
 form {
-    color: white; font-size: xx-large; text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+label {
+    color: white;
+    text-shadow: 3px 3px 3px black;
+}
+#button:hover {
+    color: white;
+    background-color: black;
+}
+.card {
+    margin-top: 50px;
+    margin-left: 50px;
+    padding-top: 30px;
+    height: fit-content;
+    width: fit-content;
+    background-image: linear-gradient(to bottom, #021329, 
+    #041830, #071e36, #0a233d, #0d2844, #152c47, 
+    #1b2f4a, #21334d, #2a364c, #313a4b, #383d49, #3e4148);
 }
