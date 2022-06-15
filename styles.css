@@ -17,7 +17,16 @@ body {
 ul { 
     line-height: 300%; 
     color: white; 
+    margin-left: 25px;
     font-size:x-large; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 3px 3px 3px black;
+}
+#reasons {
+    line-height: 300%; 
+    color: white; 
+    font-size:x-large; 
+    margin-left: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-shadow: 3px 3px 3px black;
 }
@@ -57,7 +66,7 @@ label {
     margin-left: 50px;
     padding-top: 30px;
     height: fit-content;
-    width: fit-content;
+    width: 550px;
     background-image: linear-gradient(to bottom, #021329, 
     #041830, #071e36, #0a233d, #0d2844, #152c47, 
     #1b2f4a, #21334d, #2a364c, #313a4b, #383d49, #3e4148);
